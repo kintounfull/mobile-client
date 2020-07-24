@@ -1,11 +1,14 @@
 {
   "name": "mobile-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build --modern --mode development",
+    "build:test": "vue-cli-service build --modern --mode test",
+    "build:prod": "vue-cli-service build --modern --mode production",
+    "lint": "vue-cli-service lint --no-fix",
+    "lint:fix": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
