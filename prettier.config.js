@@ -1,7 +1,6 @@
 // https://prettier.io/docs/en/options.html
 module.exports = {
     eslintIntegration: true,
-
     formatOnSave: false,
 
     tabWidth: 4, // Specify the number of spaces per indentation-level

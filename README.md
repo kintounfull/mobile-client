@@ -34,5 +34,11 @@ npm run lint
 npm run lint:fix
 ```
 
+### Analyse webpack output bundle files
+
+```
+npm run analyze
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
